@@ -1,0 +1,26 @@
+{
+  "name": "nodebb-plugin-bbcodes-embedly",
+  "version": "1.0.0",
+  "description": "NodeBB BBCodes Embed.ly extension. Plugin nodebb-plugin-bbcodes required",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APXEOLOG/nodebb-plugin-bbcodes-embedly.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "bbcode",
+    "embedly"
+  ],
+  "author": {
+    "name": "APXEOLOG",
+    "email": "apxeolog.ru@gmail.com"
+  },
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/APXEOLOG/nodebb-plugin-bbcodes-embedly/issues"
+  },
+  "homepage": "https://github.com/APXEOLOG/nodebb-plugin-bbcodes-embedly",
+  "scripts": {}
+}

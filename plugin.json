@@ -1,0 +1,27 @@
+{
+	"id": "nodebb-plugin-bbcodes-embedly",
+	"name": "NodeBB BBCodes Embed.ly extension",
+	"description": "BBCodes plugin extension for Embed.ly. Plugin nodebb-plugin-bbcodes required",
+	"url": "https://github.com/APXEOLOG/nodebb-plugin-bbcodes-embedly",
+	"library": "./library.js",
+	"hooks": [{
+		"hook": "static:app.load",
+		"method": "load"
+	}, {
+		"hook": "static:plugin-bbcodes-load",
+		"method": "register"
+	}, {
+		"hook": "filter:admin.header.build",
+		"method": "extendAdminMenu"
+	}],
+	"nbbpm": {
+        "compatibility": "^0.7.0"
+    },
+	"staticDirs": {
+		"static": "./static"
+	},
+	"scripts": [
+		"static/embedly-platform.js"
+	],
+	"templates": "./templates"
+}
